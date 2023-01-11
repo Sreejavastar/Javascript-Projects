@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Score Board</title>
+</head>
+<body>
+    <div class="head">Score Board</div>
+    <div class="container">
+        <div class="sub1">
+            <div class="h1">HOME</div>
+            <div id="spanner1">0</div>
+            <div class="box1">
+                <button id="btn" onclick="increment10()">+1</button>
+                <button id="btn" onclick="increment20()">+2</button>
+                <button id="btn" onclick="increment30()">+3</button>
+            </div>
+        </div>
+        <div class="sub2">
+            <div class="h2">GUEST</div>
+            <div id="spanner2">0</div>
+            <div class="box2">
+                <button id="btn" onclick="increment11()">+1</button>
+                <button id="btn" onclick="increment21()">+2</button>
+                <button id="btn" onclick="increment31()">+3</button>
+            </div>
+        </div>
+        <button class="bb" onclick="Reset()">Reset</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

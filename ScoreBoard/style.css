@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre&family=Orbitron:wght@600&family=Skranji:wght@700&display=swap');
+
+html{
+    background-color: rgb(228, 212, 239);
+}
+
+.container {
+    position: relative;
+    width: 575px;
+    height: 415px;
+    background: #1B244A;
+    Top: 30px;
+    Left: 40pxpx;
+    border: 2px solid white;
+    box-shadow:8px -3px 26px rgb(0 0 0 / 68%);
+    border-radius: 11px;
+    top: 251px;
+    left: 422px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.head {
+    position: absolute;
+
+    font-size: 3rem;
+    left: 529px;
+    top: 92px;
+    font-family: 'Skranji', cursive;
+}
+
+
+.sub1 {
+    background-color: #1B244A;
+    position: relative;
+    
+}
+
+.sub2 {
+    position: relative;
+    
+
+}
+
+.h1 {
+    font-family: 'Averia Sans Libre', cursive;
+    position: absolute;
+    top: -118px;
+    left: -194px;
+    color: white;
+    font-size: xxx-large;
+    
+}
+.h2 {
+    font-family: 'Averia Sans Libre', cursive;
+    position: absolute;
+    top: -118px;
+    right: -194px;
+    color: white;
+    font-size: xxx-large;
+    
+}
+#spanner1{
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    direction: flex;
+    border: 3px solid red;
+    border-radius: 22px;
+    box-shadow:2px -1px 16px rgba(247, 215, 215, 0.68);
+
+    position: absolute;
+    top: -31px;
+    left: -179px;
+}
+#spanner2{
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    direction: flex;
+    border: 3px solid red;
+    border-radius: 22px;
+    box-shadow:2px -1px 16px rgba(247, 215, 215, 0.68);
+
+    position: absolute;
+    top: -31px;
+    right: -163px;
+}
+.box1{
+    position: absolute;
+    left: -169px;
+    top: 124px;
+    display: flex;
+   
+    justify-content: space-between;
+    /* font-family: 'Orbitron', sans-serif; */
+}
+.box2{
+    position: absolute;
+    top: 124px;
+    display: flex;
+    right: -156px;
+    justify-content: space-between;
+    /* font-family: 'Orbitron', sans-serif; */
+}
+#btn{
+    background-color: #ffff;
+    border: 0.5px solid black;
+    border-radius: 34px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 3px;
+    margin: 5px;
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Averia Sans Libre', cursive ;
+    text-align: center;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+#btn:hover {
+    background-color: #FFC229;
+    box-shadow: #FF6314 0 -6px 8px inset;
+    transform: scale(1.125);
+  }
+  
+#btn:active {
+    transform: scale(1.025);
+  }
+
+  /* @media (min-width: 768px) {
+  #btn {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+}} */
+.bb{
+    position: absolute;
+    top: 33px;
+    background-color: #ffff;
+    border: 0.5px solid black;
+    border-radius: 34px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 3px;
+    margin: 5px;
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: 'Averia Sans Libre', cursive ;
+    text-align: center;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.bb:hover {
+    background-color: #FFC229;
+    box-shadow: #FF6314 0 -6px 8px inset;
+    transform: scale(1.125);
+  }
+  
+.bb:active {
+    transform: scale(1.025);
+  }
+
